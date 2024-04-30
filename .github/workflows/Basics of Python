@@ -1,0 +1,29 @@
+# Descriptive Analytics for Numerical Columns
+
+Calculate the mean, median, mode, and standard deviation for these columns.
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sbn
+
+df=pd.read_csv('sales_data_with_discounts.csv')
+df.head(5)
+
+pd.isnull(df).any()
+
+df.shape
+
+df["Net Sales Value"]=pd.to_numeric(df["Net Sales Value"])
+
+df["Net Sales Value"].mean()
+
+df["Net Sales Value"].median()
+
+df["Net Sales Value"].mode()
+
+df["Net Sales Value"].std()
+
+# Data Visualization
+
+df.head(5)
