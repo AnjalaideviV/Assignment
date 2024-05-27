@@ -189,17 +189,6 @@ plt.title('Receiver Operating Characteristic (ROC) Curve')
 plt.show()
 
 
-# ### Interview Questions:
-1. What is the difference between precision and recall?
-
-Precision measures the accuracy of positive predictions, 
-while recall measures the completeness of positive predictions. 
-These two metrics are often used together to evaluate the performance of classification models.2. What is cross-validation, and why is it important in binary classification?
-
-Cross-validation is a statistical method used in machine learning to evaluate the performance of a predictive model.
-Cross-validation helps prevent overfitting and enhances the robustness of the model, thereby improving its accuracy on unseen data.
-# In[ ]:
-
 
 
 
